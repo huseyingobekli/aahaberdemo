@@ -3,6 +3,7 @@
 import React, { useCallback, useState, useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import Marker from "./Marker";
+import Popup from "./Popup";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -11,6 +12,7 @@ function Map() {
   const mapContainerRef = useRef();
 
   const [earthquakeData, setEarthquakeData] = useState();
+  const [activeFeature, setActiveFeature] = useState();
 
   const getBboxAndFetch = useCallback(async () => {
     const bounds = mapRef.current.getBounds();
@@ -26,7 +28,8 @@ function Map() {
   }, []);
 
   useEffect(() => {
-    mapboxgl.accessToken = "";
+    mapboxgl.accessToken =
+      "pk.eyJ1IjoiaHVzZXlpbmdvYmVrbGkiLCJhIjoiY21mMnBxNWkxMHowdzJqc2JrZXA1b2c5MCJ9.82FLsKZgr76E24hF01AoZQ";
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
       center: [124, -1.98],
@@ -48,6 +51,10 @@ function Map() {
     };
   }, []);
 
+  const handleMarkerClick = (feature) => {
+    setActiveFeature(feature);
+  };
+
   console.log(earthquakeData);
 
   return (
@@ -58,9 +65,18 @@ function Map() {
           earthquakeData &&
           earthquakeData.features?.map((feature) => {
             return (
-              <Marker key={feature.id} map={mapRef.current} feature={feature} />
+              <Marker
+                key={feature.id}
+                map={mapRef.current}
+                feature={feature}
+                isActive={activeFeature?.id === feature.id}
+                onClick={handleMarkerClick}
+              />
             );
           })}
+        {mapRef.current && (
+          <Popup map={mapRef.current} activeFeature={activeFeature} />
+        )}
       </>
     </>
   );

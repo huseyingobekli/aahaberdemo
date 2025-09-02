@@ -1,0 +1,211 @@
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* AA Logo Styling */
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aa-logo {
+  display: inline-block;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(30, 60, 114, 0.3);
+  margin-bottom: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.aa-monogram {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.aa-arc {
+  position: absolute;
+  top: -5px;
+  width: 60px;
+  height: 30px;
+  border: 4px solid #e74c3c;
+  border-bottom: none;
+  border-radius: 60px 60px 0 0;
+  z-index: 2;
+}
+
+.aa-letters {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+  z-index: 1;
+  position: relative;
+}
+
+.aa-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.9);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  color: #ecf0f1;
+}
+
+.header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  font-weight: 400;
+  background: rgba(255,255,255,0.1);
+  padding: 10px 20px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  display: inline-block;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Card Container */
+.card-container {
+  position: relative;
+  height: 650px;
+  margin: 0 auto 40px;
+  max-width: 550px;
+  perspective: 1200px;
+}
+
+/* Result Messages */
+.result-message {
+  text-align: center;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 25px auto;
+  max-width: 550px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.result-message.success {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+.result-message.info {
+  background: linear-gradient(45deg, #2980b9, #3498db);
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+/* Final Results */
+.final-results {
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.final-results h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.final-content {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+.final-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.final-content button {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+}
+
+.final-content button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+  
+  .aa-letters {
+    font-size: 2.5rem;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .card-container {
+    height: 600px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aa-letters {
+    font-size: 2rem;
+  }
+  
+  .aa-arc {
+    width: 50px;
+    height: 25px;
+    border-width: 3px;
+  }
+  
+  .header h1 {
+    font-size: 1.6rem;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  
+  .card-container {
+    height: 550px;
+    max-width: 450px;
+  }
+}
