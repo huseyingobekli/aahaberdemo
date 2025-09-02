@@ -1,0 +1,213 @@
+.news-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  overflow: hidden;
+  cursor: grab;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-origin: center bottom;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  z-index: 10;
+}
+
+.news-card:active {
+  cursor: grabbing;
+}
+
+.card-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.6));
+}
+
+.card-content {
+  padding: 30px;
+  height: calc(100% - 220px);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-category {
+  display: inline-block;
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  color: #2c3e50;
+}
+
+.card-summary {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #5a6c7d;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  padding-top: 20px;
+  border-top: 1px solid #ecf0f1;
+}
+
+.card-date {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.card-read-time {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+}
+
+/* Swipe Indicators */
+.swipe-indicator {
+  position: absolute;
+  top: 25px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  z-index: 20;
+}
+
+.swipe-indicator.show {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.swipe-indicator.like {
+  right: 25px;
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+.swipe-indicator.dislike {
+  left: 25px;
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+/* Drag Hint */
+.drag-hint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  z-index: 15;
+}
+
+.hint-arrows {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #95a5a6;
+}
+
+.hint-arrows span {
+  animation: pulse 2s infinite;
+}
+
+.hint-arrows span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.hint-arrows span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-content {
+    padding: 25px;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+  }
+  
+  .swipe-indicator {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-summary {
+    font-size: 1rem;
+  }
+  
+  .swipe-indicator {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+  
+  .drag-hint {
+    font-size: 0.8rem;
+  }
+}
