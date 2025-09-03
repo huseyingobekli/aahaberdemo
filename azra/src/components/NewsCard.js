@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { motion, PanInfo } from 'framer-motion';
+import { motion } from 'framer-motion';
 import './NewsCard.css';
 
 const NewsCard = ({ news, onSwipe, showMessage }) => {
@@ -13,8 +13,6 @@ const NewsCard = ({ news, onSwipe, showMessage }) => {
 
   const handleDrag = (event, info) => {
     const { offset } = info;
-    
-    // Swipe göstergelerini güncelle
     if (offset.x > 50) {
       setDragDirection('right');
     } else if (offset.x < -50) {
@@ -27,18 +25,15 @@ const NewsCard = ({ news, onSwipe, showMessage }) => {
   const handleDragEnd = (event, info) => {
     setIsDragging(false);
     setDragDirection(null);
-    
+
     const { offset, velocity } = info;
     const swipeThreshold = 100;
     const velocityThreshold = 500;
-    
-    // Swipe yönünü belirle
+
     if (Math.abs(offset.x) > swipeThreshold || Math.abs(velocity.x) > velocityThreshold) {
       if (offset.x > 0) {
-        // Sağa kaydırma - Sonraki haber
         onSwipe('right');
       } else {
-        // Sola kaydırma - Haberi oku
         onSwipe('left');
       }
     }
@@ -50,42 +45,47 @@ const NewsCard = ({ news, onSwipe, showMessage }) => {
       className="news-card"
       drag="x"
       dragConstraints={{ left: 0, right: 0 }}
-      dragElastic={0.1}
+      dragElastic={0.15}
       onDragStart={handleDragStart}
       onDrag={handleDrag}
       onDragEnd={handleDragEnd}
       whileDrag={{ scale: 1.05 }}
-      initial={{ opacity: 0, y: 50, scale: 0.9 }}
-      animate={{ 
-        opacity: 1, 
-        y: 0, 
+      initial={{ opacity: 0, y: 40, scale: 0.95 }}
+      animate={{
+        opacity: 1,
+        y: 0,
         scale: 1,
-        rotate: isDragging ? (dragDirection === 'right' ? 5 : dragDirection === 'left' ? -5 : 0) : 0
+        rotate: isDragging
+          ? dragDirection === 'right'
+            ? 5
+            : dragDirection === 'left'
+            ? -5
+            : 0
+          : 0,
       }}
-      exit={{ 
-        opacity: 0, 
-        x: dragDirection === 'right' ? 300 : -300,
-        y: -50,
-        scale: 0.8,
-        rotate: dragDirection === 'right' ? 20 : -20
+      exit={{
+        opacity: 0,
+        x: dragDirection === 'right' ? 350 : -350,
+        y: -40,
+        scale: 0.85,
+        rotate: dragDirection === 'right' ? 20 : -20,
       }}
-      transition={{ 
-        type: "spring", 
-        stiffness: 300, 
-        damping: 30,
-        duration: 0.3
+      transition={{
+        type: 'spring',
+        stiffness: 400,
+        damping: 35,
       }}
       style={{
-        cursor: isDragging ? 'grabbing' : 'grab'
+        cursor: isDragging ? 'grabbing' : 'grab',
       }}
     >
-      <div 
-        className="card-image" 
+      <div
+        className="card-image"
         style={{ backgroundImage: `url('${news.image}')` }}
       >
         <div className="card-overlay"></div>
       </div>
-      
+
       <div className="card-content">
         <span className="card-category">{news.category}</span>
         <h3 className="card-title">{news.title}</h3>
@@ -102,21 +102,21 @@ const NewsCard = ({ news, onSwipe, showMessage }) => {
       <motion.div
         className={`swipe-indicator like ${dragDirection === 'right' ? 'show' : ''}`}
         initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ 
-          opacity: dragDirection === 'right' ? 1 : 0, 
-          scale: dragDirection === 'right' ? 1 : 0.8 
+        animate={{
+          opacity: dragDirection === 'right' ? 1 : 0,
+          scale: dragDirection === 'right' ? 1 : 0.8,
         }}
         transition={{ duration: 0.2 }}
       >
         ⏭️ Sonraki Haber
       </motion.div>
-      
+
       <motion.div
         className={`swipe-indicator dislike ${dragDirection === 'left' ? 'show' : ''}`}
         initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ 
-          opacity: dragDirection === 'left' ? 1 : 0, 
-          scale: dragDirection === 'left' ? 1 : 0.8 
+        animate={{
+          opacity: dragDirection === 'left' ? 1 : 0,
+          scale: dragDirection === 'left' ? 1 : 0.8,
         }}
         transition={{ duration: 0.2 }}
       >

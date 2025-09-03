@@ -1,6 +1,10 @@
 .App {
   min-height: 100vh;
   padding: 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  padding-top: 60px;
 }
 
 .container {
@@ -10,27 +14,8 @@
 
 /* AA Logo Styling */
 .logo-container {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.aa-logo {
-  display: inline-block;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
-  padding: 20px 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(30, 60, 114, 0.3);
+  text-align: left;
   margin-bottom: 25px;
-  position: relative;
-  overflow: hidden;
-}
-
-.aa-monogram {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
 }
 
 .aa-arc {
@@ -38,7 +23,7 @@
   top: -5px;
   width: 60px;
   height: 30px;
-  border: 4px solid #e74c3c;
+  border: 4px solid #ffdd00;
   border-bottom: none;
   border-radius: 60px 60px 0 0;
   z-index: 2;
@@ -48,7 +33,7 @@
   font-size: 3rem;
   font-weight: 800;
   color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   letter-spacing: 2px;
   z-index: 1;
   position: relative;
@@ -57,7 +42,7 @@
 .aa-subtitle {
   display: block;
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -69,24 +54,16 @@
   color: white;
 }
 
-.header h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 15px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  color: #ecf0f1;
-}
-
 .header p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   opacity: 0.9;
   font-weight: 400;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.15);
   padding: 10px 20px;
   border-radius: 25px;
   backdrop-filter: blur(10px);
   display: inline-block;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 /* Card Container */
@@ -106,7 +83,7 @@
   margin: 25px auto;
   max-width: 550px;
   backdrop-filter: blur(15px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   color: white;
   font-weight: 600;
   font-size: 1.1rem;
@@ -114,12 +91,12 @@
 
 .result-message.success {
   background: linear-gradient(45deg, #27ae60, #2ecc71);
-  border: 2px solid rgba(255,255,255,0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .result-message.info {
   background: linear-gradient(45deg, #2980b9, #3498db);
-  border: 2px solid rgba(255,255,255,0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Final Results */
@@ -135,11 +112,11 @@
 }
 
 .final-content {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 20px;
   backdrop-filter: blur(10px);
-  border: 2px solid rgba(255,255,255,0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .final-content p {
@@ -164,20 +141,57 @@
   box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
 }
 
+.navbar {
+  width: 100%;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #f39c12;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .App {
     padding: 15px;
   }
-  
+
   .aa-letters {
     font-size: 2.5rem;
   }
-  
+
   .header h1 {
     font-size: 1.8rem;
   }
-  
+
   .card-container {
     height: 600px;
     max-width: 500px;
@@ -188,22 +202,22 @@
   .aa-letters {
     font-size: 2rem;
   }
-  
+
   .aa-arc {
     width: 50px;
     height: 25px;
     border-width: 3px;
   }
-  
+
   .header h1 {
     font-size: 1.6rem;
   }
-  
+
   .header p {
     font-size: 1rem;
     padding: 8px 16px;
   }
-  
+
   .card-container {
     height: 550px;
     max-width: 450px;
