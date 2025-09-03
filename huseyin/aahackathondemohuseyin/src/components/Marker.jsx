@@ -26,19 +26,28 @@ const Marker = ({ map, feature, isActive, onClick }) => {
         <div
           onClick={() => onClick(feature)}
           style={{
-            display: "inline-block",
-            padding: "2px 10px",
-            borderRadius: "50px",
-            backgroundColor: isActive ? "#333" : "#fff",
-            boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.5)",
-            fontFamily: "Arial, sans-serif",
-            fontSize: "14px",
-            fontWeight: "bold",
-            color: isActive ? "#fff" : "#333",
-            textAlign: "center",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "60px",
+            height: "100px",
+            borderRadius: "20%",
+            overflow: "hidden",
+            cursor: "pointer",
+            border: isActive ? "2px solid #333" : "2px solid #fff",
+            boxShadow: "0 2px 4px rgba(0,0,0,0.5)",
+            backgroundColor: "#fff",
           }}
         >
-          {properties.mag}
+          <img
+            src={properties.img}
+            alt={properties.title}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+            }}
+          />
         </div>,
         contentRef.current
       )}

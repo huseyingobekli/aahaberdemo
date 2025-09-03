@@ -15,25 +15,20 @@ function Map() {
   const [activeFeature, setActiveFeature] = useState();
 
   const getBboxAndFetch = useCallback(async () => {
-    const bounds = mapRef.current.getBounds();
     try {
-      const data = await fetch(
-        `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2024-01-01&endtime=2024-01-30&minlatitude=${bounds._sw.lat}&maxlatitude=${bounds._ne.lat}&minlongitude=${bounds._sw.lng}&maxlongitude=${bounds._ne.lng}`
-      ).then((d) => d.json());
-
-      setEarthquakeData(data);
+      const data = await fetch("/data/news.json").then((res) => res.json());
+      setEarthquakeData(data); // artık 'earthquakeData' yerine 'newsData' gibi isim de kullanabilirsin
     } catch (error) {
       console.error(error);
     }
   }, []);
-
   useEffect(() => {
     mapboxgl.accessToken =
       "pk.eyJ1IjoiaHVzZXlpbmdvYmVrbGkiLCJhIjoiY21mMnBxNWkxMHowdzJqc2JrZXA1b2c5MCJ9.82FLsKZgr76E24hF01AoZQ";
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
-      center: [124, -1.98],
-      minZoom: 3.5,
+      center: [30, 40],
+      minZoom: 1.5,
       zoom: 3.5,
       projection: "globe",
     });
@@ -42,9 +37,9 @@ function Map() {
       getBboxAndFetch();
     });
 
-    mapRef.current.on("moveend", () => {
-      getBboxAndFetch();
-    });
+    // mapRef.current.on("moveend", () => {
+    //   getBboxAndFetch();
+    // });
 
     return () => {
       mapRef.current.remove();
