@@ -7,23 +7,11 @@
         "title": "Sakarya Üniversitesi Öğrencilerinden Uluslararası Başarı - Haber 1",
         "img": "https://picsum.photos/seed/100/600/400",
         "description": "Sakarya Üniversitesi Mühendislik Fakültesi öğrencileri, Avrupa Üniversitelerarası Robotik Yarışması'nda birincilik elde ederek Türkiye’ye gurur yaşattı.",
-        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik",
-        "contentTop": [
-          "Mühendislik Fakültesi öğrencilerinden oluşan ekip, Fransa’nın Lyon kentinde düzenlenen Avrupa Üniversitelerarası Robotik Yarışması’na katıldı.",
-          "Takım, geliştirdiği yapay zeka algoritmalarıyla çalışan otonom robot sayesinde rakiplerini geride bıraktı."
-        ],
-        "contentBottom": [
-          "Öğrencilerin başarısı, üniversitenin uygulamalı eğitim vizyonunun bir göstergesi olarak değerlendirildi.",
-          "Rektör Prof. Dr. Hamza Al, bu ödülün genç araştırmacılara yeni kapılar açacağını belirtti."
-        ]
+        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.33,
-          40.74,
-          10
-        ]
+        "coordinates": [30.509999999999998, 40.92, 10]
       },
       "id": "news1"
     },
@@ -33,23 +21,11 @@
         "title": "Sakarya Üniversitesi'nden Sıfır Atık Projesi - Haber 2",
         "img": "https://picsum.photos/seed/101/600/400",
         "description": "Üniversite kampüsünde başlatılan Sıfır Atık Projesi ile geri dönüşüm oranı %65’e ulaştı ve karbon ayak izi ciddi oranda azaldı.",
-        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi",
-        "contentTop": [
-          "Çevre Mühendisliği Bölümü öncülüğünde yürütülen projede plastik, cam, kağıt ve elektronik atıklar ayrı toplanıyor.",
-          "Projeye öğrenciler, akademisyenler ve idari personel aktif şekilde katılım sağlıyor."
-        ],
-        "contentBottom": [
-          "Projenin en önemli çıktılarından biri, enerji tasarrufu için LED sistemlerin kurulması oldu.",
-          "Üniversite yönetimi, 2030 yılına kadar karbon nötr kampüs olmayı hedefliyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.34,
-          40.75,
-          10
-        ]
+        "coordinates": [-118.2437, 34.0522, 10]
       },
       "id": "news2"
     },
@@ -59,23 +35,11 @@
         "title": "Yeni Sağlık Araştırma Merkezi Hizmete Açıldı - Haber 3",
         "img": "https://picsum.photos/seed/102/600/400",
         "description": "Sakarya Üniversitesi Sağlık Bilimleri Fakültesi bünyesinde yeni bir araştırma merkezi açıldı. Merkez, kanser ve genetik hastalıklar üzerine yoğunlaşacak.",
-        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi",
-        "contentTop": [
-          "Merkez, modern laboratuvar cihazları ile donatıldı ve uluslararası standartlarda çalışabilecek kapasiteye ulaştı.",
-          "Öğrenciler ve araştırmacılar, özellikle kanser tedavisi ve genetik hastalıkların erken teşhisi üzerine projeler yürütecek."
-        ],
-        "contentBottom": [
-          "Bu merkez sayesinde Türkiye’nin sağlık alanındaki bilimsel üretim gücünün artması bekleniyor.",
-          "Ayrıca uluslararası iş birlikleri ile ortak projeler geliştirilmesi planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.349999999999998,
-          40.760000000000005,
-          10
-        ]
+        "coordinates": [-0.1276, 51.5074, 10]
       },
       "id": "news3"
     },
@@ -85,23 +49,11 @@
         "title": "Geleneksel Sanatlar Festivali Başladı - Haber 4",
         "img": "https://picsum.photos/seed/103/600/400",
         "description": "Sakarya Üniversitesi Güzel Sanatlar Fakültesi tarafından düzenlenen Geleneksel Sanatlar Festivali, geniş katılımla başladı.",
-        "url": "https://haber.sakarya.edu.tr/sanat-festivali",
-        "contentTop": [
-          "Festivalde ebru, hat, tezhip ve minyatür sanatlarının önde gelen ustaları yer aldı.",
-          "Öğrenciler, hem teorik hem uygulamalı eğitimlerle geleneksel sanatları deneyimledi."
-        ],
-        "contentBottom": [
-          "Etkinlik, şehir halkının da yoğun ilgisini çekti.",
-          "Rektörlük, bu festivalin kültürel mirasın korunmasına katkı sağladığını açıkladı."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sanat-festivali"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.36,
-          40.77,
-          10
-        ]
+        "coordinates": [2.3522, 48.8566, 10]
       },
       "id": "news4"
     },
@@ -111,23 +63,11 @@
         "title": "Sakarya’da Üniversitelerarası Futbol Turnuvası - Haber 5",
         "img": "https://picsum.photos/seed/104/600/400",
         "description": "Sakarya Üniversitesi ev sahipliğinde düzenlenen üniversitelerarası futbol turnuvası başladı. 12 üniversiteden takımlar katılım sağladı.",
-        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol",
-        "contentTop": [
-          "Turnuvanın açılışı coşkulu bir törenle gerçekleştirildi.",
-          "Müsabakalar Sakarya Üniversitesi Stadyumu’nda oynanacak ve final büyük bir şölenle tamamlanacak."
-        ],
-        "contentBottom": [
-          "Turnuva, öğrencilere spor bilincini aşılamanın yanı sıra dostluk ve dayanışmayı da pekiştirmeyi amaçlıyor.",
-          "Final karşılaşmasının ulusal televizyonlarda canlı yayınlanması planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.369999999999997,
-          40.78,
-          10
-        ]
+        "coordinates": [13.405, 52.52, 10]
       },
       "id": "news5"
     },
@@ -137,23 +77,11 @@
         "title": "Sakarya Üniversitesi Öğrencilerinden Uluslararası Başarı - Haber 6",
         "img": "https://picsum.photos/seed/105/600/400",
         "description": "Sakarya Üniversitesi Mühendislik Fakültesi öğrencileri, Avrupa Üniversitelerarası Robotik Yarışması'nda birincilik elde ederek Türkiye’ye gurur yaşattı.",
-        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik",
-        "contentTop": [
-          "Mühendislik Fakültesi öğrencilerinden oluşan ekip, Fransa’nın Lyon kentinde düzenlenen Avrupa Üniversitelerarası Robotik Yarışması’na katıldı.",
-          "Takım, geliştirdiği yapay zeka algoritmalarıyla çalışan otonom robot sayesinde rakiplerini geride bıraktı."
-        ],
-        "contentBottom": [
-          "Öğrencilerin başarısı, üniversitenin uygulamalı eğitim vizyonunun bir göstergesi olarak değerlendirildi.",
-          "Rektör Prof. Dr. Hamza Al, bu ödülün genç araştırmacılara yeni kapılar açacağını belirtti."
-        ]
+        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.38,
-          40.79,
-          10
-        ]
+        "coordinates": [18.4241, -33.9249, 10]
       },
       "id": "news6"
     },
@@ -163,23 +91,11 @@
         "title": "Sakarya Üniversitesi'nden Sıfır Atık Projesi - Haber 7",
         "img": "https://picsum.photos/seed/106/600/400",
         "description": "Üniversite kampüsünde başlatılan Sıfır Atık Projesi ile geri dönüşüm oranı %65’e ulaştı ve karbon ayak izi ciddi oranda azaldı.",
-        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi",
-        "contentTop": [
-          "Çevre Mühendisliği Bölümü öncülüğünde yürütülen projede plastik, cam, kağıt ve elektronik atıklar ayrı toplanıyor.",
-          "Projeye öğrenciler, akademisyenler ve idari personel aktif şekilde katılım sağlıyor."
-        ],
-        "contentBottom": [
-          "Projenin en önemli çıktılarından biri, enerji tasarrufu için LED sistemlerin kurulması oldu.",
-          "Üniversite yönetimi, 2030 yılına kadar karbon nötr kampüs olmayı hedefliyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.389999999999997,
-          40.800000000000004,
-          10
-        ]
+        "coordinates": [31.2357, 30.0444, 10]
       },
       "id": "news7"
     },
@@ -189,23 +105,11 @@
         "title": "Yeni Sağlık Araştırma Merkezi Hizmete Açıldı - Haber 8",
         "img": "https://picsum.photos/seed/107/600/400",
         "description": "Sakarya Üniversitesi Sağlık Bilimleri Fakültesi bünyesinde yeni bir araştırma merkezi açıldı. Merkez, kanser ve genetik hastalıklar üzerine yoğunlaşacak.",
-        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi",
-        "contentTop": [
-          "Merkez, modern laboratuvar cihazları ile donatıldı ve uluslararası standartlarda çalışabilecek kapasiteye ulaştı.",
-          "Öğrenciler ve araştırmacılar, özellikle kanser tedavisi ve genetik hastalıkların erken teşhisi üzerine projeler yürütecek."
-        ],
-        "contentBottom": [
-          "Bu merkez sayesinde Türkiye’nin sağlık alanındaki bilimsel üretim gücünün artması bekleniyor.",
-          "Ayrıca uluslararası iş birlikleri ile ortak projeler geliştirilmesi planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.4,
-          40.81,
-          10
-        ]
+        "coordinates": [139.6917, 35.6895, 10]
       },
       "id": "news8"
     },
@@ -215,23 +119,11 @@
         "title": "Geleneksel Sanatlar Festivali Başladı - Haber 9",
         "img": "https://picsum.photos/seed/108/600/400",
         "description": "Sakarya Üniversitesi Güzel Sanatlar Fakültesi tarafından düzenlenen Geleneksel Sanatlar Festivali, geniş katılımla başladı.",
-        "url": "https://haber.sakarya.edu.tr/sanat-festivali",
-        "contentTop": [
-          "Festivalde ebru, hat, tezhip ve minyatür sanatlarının önde gelen ustaları yer aldı.",
-          "Öğrenciler, hem teorik hem uygulamalı eğitimlerle geleneksel sanatları deneyimledi."
-        ],
-        "contentBottom": [
-          "Etkinlik, şehir halkının da yoğun ilgisini çekti.",
-          "Rektörlük, bu festivalin kültürel mirasın korunmasına katkı sağladığını açıkladı."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sanat-festivali"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.409999999999997,
-          40.82,
-          10
-        ]
+        "coordinates": [116.4074, 39.9042, 10]
       },
       "id": "news9"
     },
@@ -241,23 +133,11 @@
         "title": "Sakarya’da Üniversitelerarası Futbol Turnuvası - Haber 10",
         "img": "https://picsum.photos/seed/109/600/400",
         "description": "Sakarya Üniversitesi ev sahipliğinde düzenlenen üniversitelerarası futbol turnuvası başladı. 12 üniversiteden takımlar katılım sağladı.",
-        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol",
-        "contentTop": [
-          "Turnuvanın açılışı coşkulu bir törenle gerçekleştirildi.",
-          "Müsabakalar Sakarya Üniversitesi Stadyumu’nda oynanacak ve final büyük bir şölenle tamamlanacak."
-        ],
-        "contentBottom": [
-          "Turnuva, öğrencilere spor bilincini aşılamanın yanı sıra dostluk ve dayanışmayı da pekiştirmeyi amaçlıyor.",
-          "Final karşılaşmasının ulusal televizyonlarda canlı yayınlanması planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.419999999999998,
-          40.830000000000005,
-          10
-        ]
+        "coordinates": [103.8198, 1.3521, 10]
       },
       "id": "news10"
     },
@@ -267,23 +147,11 @@
         "title": "Sakarya Üniversitesi Öğrencilerinden Uluslararası Başarı - Haber 11",
         "img": "https://picsum.photos/seed/110/600/400",
         "description": "Sakarya Üniversitesi Mühendislik Fakültesi öğrencileri, Avrupa Üniversitelerarası Robotik Yarışması'nda birincilik elde ederek Türkiye’ye gurur yaşattı.",
-        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik",
-        "contentTop": [
-          "Mühendislik Fakültesi öğrencilerinden oluşan ekip, Fransa’nın Lyon kentinde düzenlenen Avrupa Üniversitelerarası Robotik Yarışması’na katıldı.",
-          "Takım, geliştirdiği yapay zeka algoritmalarıyla çalışan otonom robot sayesinde rakiplerini geride bıraktı."
-        ],
-        "contentBottom": [
-          "Öğrencilerin başarısı, üniversitenin uygulamalı eğitim vizyonunun bir göstergesi olarak değerlendirildi.",
-          "Rektör Prof. Dr. Hamza Al, bu ödülün genç araştırmacılara yeni kapılar açacağını belirtti."
-        ]
+        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.43,
-          40.84,
-          10
-        ]
+        "coordinates": [151.2093, -33.8688, 10]
       },
       "id": "news11"
     },
@@ -293,23 +161,11 @@
         "title": "Sakarya Üniversitesi'nden Sıfır Atık Projesi - Haber 12",
         "img": "https://picsum.photos/seed/111/600/400",
         "description": "Üniversite kampüsünde başlatılan Sıfır Atık Projesi ile geri dönüşüm oranı %65’e ulaştı ve karbon ayak izi ciddi oranda azaldı.",
-        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi",
-        "contentTop": [
-          "Çevre Mühendisliği Bölümü öncülüğünde yürütülen projede plastik, cam, kağıt ve elektronik atıklar ayrı toplanıyor.",
-          "Projeye öğrenciler, akademisyenler ve idari personel aktif şekilde katılım sağlıyor."
-        ],
-        "contentBottom": [
-          "Projenin en önemli çıktılarından biri, enerji tasarrufu için LED sistemlerin kurulması oldu.",
-          "Üniversite yönetimi, 2030 yılına kadar karbon nötr kampüs olmayı hedefliyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.439999999999998,
-          40.85,
-          10
-        ]
+        "coordinates": [-58.3816, -34.6037, 10]
       },
       "id": "news12"
     },
@@ -319,23 +175,11 @@
         "title": "Yeni Sağlık Araştırma Merkezi Hizmete Açıldı - Haber 13",
         "img": "https://picsum.photos/seed/112/600/400",
         "description": "Sakarya Üniversitesi Sağlık Bilimleri Fakültesi bünyesinde yeni bir araştırma merkezi açıldı. Merkez, kanser ve genetik hastalıklar üzerine yoğunlaşacak.",
-        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi",
-        "contentTop": [
-          "Merkez, modern laboratuvar cihazları ile donatıldı ve uluslararası standartlarda çalışabilecek kapasiteye ulaştı.",
-          "Öğrenciler ve araştırmacılar, özellikle kanser tedavisi ve genetik hastalıkların erken teşhisi üzerine projeler yürütecek."
-        ],
-        "contentBottom": [
-          "Bu merkez sayesinde Türkiye’nin sağlık alanındaki bilimsel üretim gücünün artması bekleniyor.",
-          "Ayrıca uluslararası iş birlikleri ile ortak projeler geliştirilmesi planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.45,
-          40.86,
-          10
-        ]
+        "coordinates": [144.9631, -37.8136, 10]
       },
       "id": "news13"
     },
@@ -345,23 +189,11 @@
         "title": "Geleneksel Sanatlar Festivali Başladı - Haber 14",
         "img": "https://picsum.photos/seed/113/600/400",
         "description": "Sakarya Üniversitesi Güzel Sanatlar Fakültesi tarafından düzenlenen Geleneksel Sanatlar Festivali, geniş katılımla başladı.",
-        "url": "https://haber.sakarya.edu.tr/sanat-festivali",
-        "contentTop": [
-          "Festivalde ebru, hat, tezhip ve minyatür sanatlarının önde gelen ustaları yer aldı.",
-          "Öğrenciler, hem teorik hem uygulamalı eğitimlerle geleneksel sanatları deneyimledi."
-        ],
-        "contentBottom": [
-          "Etkinlik, şehir halkının da yoğun ilgisini çekti.",
-          "Rektörlük, bu festivalin kültürel mirasın korunmasına katkı sağladığını açıkladı."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sanat-festivali"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.459999999999997,
-          40.870000000000005,
-          10
-        ]
+        "coordinates": [2.1734, 41.3851, 10]
       },
       "id": "news14"
     },
@@ -371,23 +203,11 @@
         "title": "Sakarya’da Üniversitelerarası Futbol Turnuvası - Haber 15",
         "img": "https://picsum.photos/seed/114/600/400",
         "description": "Sakarya Üniversitesi ev sahipliğinde düzenlenen üniversitelerarası futbol turnuvası başladı. 12 üniversiteden takımlar katılım sağladı.",
-        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol",
-        "contentTop": [
-          "Turnuvanın açılışı coşkulu bir törenle gerçekleştirildi.",
-          "Müsabakalar Sakarya Üniversitesi Stadyumu’nda oynanacak ve final büyük bir şölenle tamamlanacak."
-        ],
-        "contentBottom": [
-          "Turnuva, öğrencilere spor bilincini aşılamanın yanı sıra dostluk ve dayanışmayı da pekiştirmeyi amaçlıyor.",
-          "Final karşılaşmasının ulusal televizyonlarda canlı yayınlanması planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.47,
-          40.88,
-          10
-        ]
+        "coordinates": [-0.5557, 38.9067, 10]
       },
       "id": "news15"
     },
@@ -397,23 +217,11 @@
         "title": "Sakarya Üniversitesi Öğrencilerinden Uluslararası Başarı - Haber 16",
         "img": "https://picsum.photos/seed/115/600/400",
         "description": "Sakarya Üniversitesi Mühendislik Fakültesi öğrencileri, Avrupa Üniversitelerarası Robotik Yarışması'nda birincilik elde ederek Türkiye’ye gurur yaşattı.",
-        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik",
-        "contentTop": [
-          "Mühendislik Fakültesi öğrencilerinden oluşan ekip, Fransa’nın Lyon kentinde düzenlenen Avrupa Üniversitelerarası Robotik Yarışması’na katıldı.",
-          "Takım, geliştirdiği yapay zeka algoritmalarıyla çalışan otonom robot sayesinde rakiplerini geride bıraktı."
-        ],
-        "contentBottom": [
-          "Öğrencilerin başarısı, üniversitenin uygulamalı eğitim vizyonunun bir göstergesi olarak değerlendirildi.",
-          "Rektör Prof. Dr. Hamza Al, bu ödülün genç araştırmacılara yeni kapılar açacağını belirtti."
-        ]
+        "url": "https://haber.sakarya.edu.tr/uluslararasi-robotik-birincilik"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.479999999999997,
-          40.89,
-          10
-        ]
+        "coordinates": [37.6173, 55.7558, 10]
       },
       "id": "news16"
     },
@@ -423,23 +231,11 @@
         "title": "Sakarya Üniversitesi'nden Sıfır Atık Projesi - Haber 17",
         "img": "https://picsum.photos/seed/116/600/400",
         "description": "Üniversite kampüsünde başlatılan Sıfır Atık Projesi ile geri dönüşüm oranı %65’e ulaştı ve karbon ayak izi ciddi oranda azaldı.",
-        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi",
-        "contentTop": [
-          "Çevre Mühendisliği Bölümü öncülüğünde yürütülen projede plastik, cam, kağıt ve elektronik atıklar ayrı toplanıyor.",
-          "Projeye öğrenciler, akademisyenler ve idari personel aktif şekilde katılım sağlıyor."
-        ],
-        "contentBottom": [
-          "Projenin en önemli çıktılarından biri, enerji tasarrufu için LED sistemlerin kurulması oldu.",
-          "Üniversite yönetimi, 2030 yılına kadar karbon nötr kampüs olmayı hedefliyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sifir-atik-projesi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.49,
-          40.9,
-          10
-        ]
+        "coordinates": [18.4232, -33.9189, 10]
       },
       "id": "news17"
     },
@@ -449,23 +245,11 @@
         "title": "Yeni Sağlık Araştırma Merkezi Hizmete Açıldı - Haber 18",
         "img": "https://picsum.photos/seed/117/600/400",
         "description": "Sakarya Üniversitesi Sağlık Bilimleri Fakültesi bünyesinde yeni bir araştırma merkezi açıldı. Merkez, kanser ve genetik hastalıklar üzerine yoğunlaşacak.",
-        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi",
-        "contentTop": [
-          "Merkez, modern laboratuvar cihazları ile donatıldı ve uluslararası standartlarda çalışabilecek kapasiteye ulaştı.",
-          "Öğrenciler ve araştırmacılar, özellikle kanser tedavisi ve genetik hastalıkların erken teşhisi üzerine projeler yürütecek."
-        ],
-        "contentBottom": [
-          "Bu merkez sayesinde Türkiye’nin sağlık alanındaki bilimsel üretim gücünün artması bekleniyor.",
-          "Ayrıca uluslararası iş birlikleri ile ortak projeler geliştirilmesi planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/saglik-arastirma-merkezi"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.5,
-          40.910000000000004,
-          10
-        ]
+        "coordinates": [100.5018, 13.7563, 10]
       },
       "id": "news18"
     },
@@ -475,23 +259,11 @@
         "title": "Geleneksel Sanatlar Festivali Başladı - Haber 19",
         "img": "https://picsum.photos/seed/118/600/400",
         "description": "Sakarya Üniversitesi Güzel Sanatlar Fakültesi tarafından düzenlenen Geleneksel Sanatlar Festivali, geniş katılımla başladı.",
-        "url": "https://haber.sakarya.edu.tr/sanat-festivali",
-        "contentTop": [
-          "Festivalde ebru, hat, tezhip ve minyatür sanatlarının önde gelen ustaları yer aldı.",
-          "Öğrenciler, hem teorik hem uygulamalı eğitimlerle geleneksel sanatları deneyimledi."
-        ],
-        "contentBottom": [
-          "Etkinlik, şehir halkının da yoğun ilgisini çekti.",
-          "Rektörlük, bu festivalin kültürel mirasın korunmasına katkı sağladığını açıkladı."
-        ]
+        "url": "https://haber.sakarya.edu.tr/sanat-festivali"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.509999999999998,
-          40.92,
-          10
-        ]
+        "coordinates": [121.4737, 31.2304, 10]
       },
       "id": "news19"
     },
@@ -501,23 +273,11 @@
         "title": "Sakarya’da Üniversitelerarası Futbol Turnuvası - Haber 20",
         "img": "https://picsum.photos/seed/119/600/400",
         "description": "Sakarya Üniversitesi ev sahipliğinde düzenlenen üniversitelerarası futbol turnuvası başladı. 12 üniversiteden takımlar katılım sağladı.",
-        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol",
-        "contentTop": [
-          "Turnuvanın açılışı coşkulu bir törenle gerçekleştirildi.",
-          "Müsabakalar Sakarya Üniversitesi Stadyumu’nda oynanacak ve final büyük bir şölenle tamamlanacak."
-        ],
-        "contentBottom": [
-          "Turnuva, öğrencilere spor bilincini aşılamanın yanı sıra dostluk ve dayanışmayı da pekiştirmeyi amaçlıyor.",
-          "Final karşılaşmasının ulusal televizyonlarda canlı yayınlanması planlanıyor."
-        ]
+        "url": "https://haber.sakarya.edu.tr/universitelerarasi-futbol"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          30.52,
-          40.93,
-          10
-        ]
+        "coordinates": [144.9631, -37.8136, 10]
       },
       "id": "news20"
     }
