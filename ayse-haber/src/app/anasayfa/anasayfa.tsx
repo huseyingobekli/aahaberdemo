@@ -72,7 +72,7 @@ export default function Anasayfa() {
                   ? f.properties.credit
                   : undefined,
             }))
-            .filter((item) => item.id && item.title);
+            .filter((item: NewsItem) => item.id && item.title);
 
           setNewsItems(items);
         }
