@@ -15,9 +15,10 @@ function Map() {
   const [activeFeature, setActiveFeature] = useState();
 
   const getBboxAndFetch = useCallback(async () => {
+    console.log("fetching data...");
     try {
       const data = await fetch("/data/news.json").then((res) => res.json());
-      setEarthquakeData(data); // artık 'earthquakeData' yerine 'newsData' gibi isim de kullanabilirsin
+      setEarthquakeData(data);
     } catch (error) {
       console.error(error);
     }

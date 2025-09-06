@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import mapboxgl from "mapbox-gl";
+import Link from "next/link";
 
 const Popup = ({ map, activeFeature }) => {
   const popupRef = useRef();
@@ -62,9 +63,12 @@ const Popup = ({ map, activeFeature }) => {
                 />
               </svg>
               <span className="ml-2">
-                <a target="_blank" href={activeFeature?.properties.url}>
+                <Link
+                  href={`/haber/${activeFeature?.id}`}
+                  className="slider-link"
+                >
                   Habere Git
-                </a>
+                </Link>
               </span>
             </div>
           </div>
