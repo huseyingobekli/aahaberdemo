@@ -117,9 +117,19 @@ export default function HaberDetay() {
     return content.split(/\n\s*\n/).filter(Boolean);
   };
 
-  const topParagraphs = parseContent(currentItem.contentTop);
-  const bottomParagraphs = parseContent(currentItem.contentBottom);
   const articleText = currentItem.content || currentItem.description || "";
+  const allParagraphs = parseContent(articleText);
+
+  let topParagraphs = parseContent(currentItem.contentTop);
+  let bottomParagraphs = parseContent(currentItem.contentBottom);
+
+  // Fallback: contentTop yoksa içeriğin ilk paragraflarını üst bölümde göster
+  if (topParagraphs.length === 0 && allParagraphs.length > 0) {
+    topParagraphs = allParagraphs.slice(0, 2);
+    if (bottomParagraphs.length === 0 && allParagraphs.length > 2) {
+      bottomParagraphs = allParagraphs.slice(2);
+    }
+  }
 
   return (
     <>
@@ -158,18 +168,14 @@ export default function HaberDetay() {
                     </div>
                     <div className="article-content">
                       <TTSPlayer text={articleText} variant="default" />
-                      {topParagraphs.length > 0 ? (
-                        topParagraphs.map((p, i) => (
-                          <p
-                            key={i}
-                            className={i === 0 ? "article-lead" : undefined}
-                          >
-                            {p}
-                          </p>
-                        ))
-                      ) : (
-                        <p className="article-lead">İçerik yükleniyor...</p>
-                      )}
+                      {topParagraphs.map((p, i) => (
+                        <p
+                          key={i}
+                          className={i === 0 ? "article-lead" : undefined}
+                        >
+                          {p}
+                        </p>
+                      ))}
                     </div>
                   </div>
 
