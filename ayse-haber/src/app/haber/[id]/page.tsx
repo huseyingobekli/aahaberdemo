@@ -209,7 +209,7 @@ export default function HaberDetay() {
                         🔹 Gündemdeki gelişmeler, özel haber, analiz, fotoğraf
                         ve videolar için Anadolu Ajansı
                       </div>
-                      <div>🔹 Anlık gelişmeler için AA Canlı</div>
+                      <div>🔹 Anlık gelişmeler için AA Canli</div>
                     </div>
                   </div>
 
