@@ -55,16 +55,15 @@ export default function RootLayout({
             </div>
             {!compact && (
               <ul className="aa-topbar-menu">
-                <li>GÜNDEM</li>
-                <li>DÜNYA</li>
-                <li>EKONOMİ</li>
-                <li>SPOR</li>
-                <li>ANALİZ</li>
-                <li>KÜLTÜR</li>
-                <li>İNFOGRAFİK</li>
-                <li>PODCAST</li>
-                <li>VİDEO</li>
-                <li>FOTOĞRAF</li>
+                <Link
+                  href="/"
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                  }}
+                >
+                  Anasayfa
+                </Link>
                 <Link
                   href="/Map"
                   style={{
@@ -73,6 +72,15 @@ export default function RootLayout({
                   }}
                 >
                   Map
+                </Link>
+                <Link
+                  href="/unitygame"
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                  }}
+                >
+                  Game
                 </Link>
               </ul>
             )}
