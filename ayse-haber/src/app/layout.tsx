@@ -7,9 +7,10 @@ import "./globals.css";
 import aaLogo from "../assets/aalogo.png";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export default function RootLayout({
   children,
 }: {
@@ -49,13 +50,13 @@ export default function RootLayout({
         >
           <div className="aa-topbar-inner">
             <div className="aa-topbar-left">
-              <Link href="/" className="aa-logo-link">
+              <a href="/" className="aa-logo-link">
                 <img src={aaLogo.src} alt="AA" className="aa-topbar-logo" />
-              </Link>
+              </a>
             </div>
             {!compact && (
               <ul className="aa-topbar-menu">
-                <Link
+                <a
                   href="/"
                   style={{
                     color: "#fff",
@@ -63,8 +64,8 @@ export default function RootLayout({
                   }}
                 >
                   Anasayfa
-                </Link>
-                <Link
+                </a>
+                <a
                   href="/Map"
                   style={{
                     color: "#fff",
@@ -72,16 +73,16 @@ export default function RootLayout({
                   }}
                 >
                   Map
-                </Link>
-                <Link
-                  href="/unitygame"
+                </a>
+                <a
                   style={{
                     color: "#fff",
                     textDecoration: "none",
                   }}
+                  href="/unitygame"
                 >
-                  Game
-                </Link>
+                  Oyun
+                </a>
               </ul>
             )}
             {compact && (
@@ -166,8 +167,9 @@ export default function RootLayout({
             </div>
           )}
         </nav>
-
         {children}
+        <Analytics />;
+        <SpeedInsights />
       </body>
     </html>
   );

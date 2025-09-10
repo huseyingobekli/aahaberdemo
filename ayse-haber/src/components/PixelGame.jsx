@@ -52,7 +52,7 @@ export default function Game() {
         className="w-full h-full block mx-auto"
       ></canvas>
       <div id="unity-loading-bar" className="absolute  text-white">
-        Loading...
+        Yükleniyor...
       </div>
     </div>
   );
